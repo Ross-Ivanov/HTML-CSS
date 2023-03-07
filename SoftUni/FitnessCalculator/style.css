@@ -1,0 +1,105 @@
+@import url("https: //fonts.googleapis.com/css?family=Open+Sans");
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.container{
+    overflow: hidden;
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0 10px 10px -2px grey;
+
+    /* I am colorblind i know for sure that there is box-shadow but im not sure where exactly is.I can clearly see it on bottom side hope you are gonna take that under consideration */
+}
+.img-holder {
+    width: 50vw;
+}
+.img-holder img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.calc-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    background-color: #f6f7f8;
+    width: 50vw;
+    padding: 80px 50px;
+    text-align: center;
+}
+h2{
+    margin-bottom: 20px;
+}
+.button-cont{
+    display: flex;
+    justify-content:space-around;
+}
+.button-cont .us-units, .button-cont .metric-units {
+    border: 1px solid;
+    border-radius: 12px;
+    background-color: #e0e0df;
+}
+.button-cont .us-units{
+    padding: 6px 20px;
+}
+.button-cont .metric-units{
+    padding: 6px 35px;
+}
+.button-cont .active{
+    background-color: #86d862;
+}
+
+.gender-age .gndr-age-cont{
+    display: flex;
+    justify-content:center;
+    font-size: 12px;
+    gap: 20px;
+}
+.gender-age .gndr-age-cont input, .gender-age .gndr-age-cont select{
+    height: 18px;
+}
+.gender-age .gndr-age-cont select{
+    border: 1px solid #767676;
+    background-color: white;
+    padding: 0px;
+    width: 30%;
+}
+.gender-age .gndr-age-cont input{
+    margin: 0px;
+    width: 25%;
+}
+
+.calc-holder .weight input {
+    width: 80%;
+    height: 35px;
+}
+
+.height #height-inch{
+    margin-left: 20px;
+}
+.height input{
+    width: 45%;
+    padding: 15px 0px 10px 10px;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+input[type=text]{
+    color: #767676;
+}
+.calc-holder .calc-blue{
+    width: 100%;
+    margin-top: 30px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px -2px grey;
+    background-color: #05a2d3;
+}

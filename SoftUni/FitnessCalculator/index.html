@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>FitnessCalculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="img-holder">
+            <img src="image/calculator.png" alt="">
+        </div>
+
+        <div class="calc-holder">
+            <h1>FITNESS CALCULATOR</h1>
+
+            <div class="button-cont">
+                <button class="us-units active">Standart units (US)</button>
+                <button class="metric-units">Metric units</button>
+            </div>
+
+            <div class="gender-age">
+                <h2>Gender</h2>
+                <label for="gender"></label>
+                <div class="gndr-age-cont">
+                    <select name="gender" id="gender">
+                        <option value="Female">Female</option>
+                        <option value="Male">Male</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <label for="age"></label>
+                    <input type="text" name="age" id="age" value="Years...">
+                </div>
+            </div>
+
+            <div class="weight">
+                <h2>Weight</h2>
+                <label for="weight"></label>
+                <input type="text" name="weight" id="weight" value="Pounds...">
+            </div>
+
+            <div class="height">
+                <h2>Height</h2>
+                <label for="height-feet"></label>
+                <input type="text" name="height-feet" id="height-feet" value="Feet...">
+
+                <label for="height-inch"></label>
+                <input type="text" name="height-inch" id="height-inch" value="Inches...">
+            </div>
+            <button class="calc-blue">
+                Calculate
+            </button>
+        </div>
+        
+    </div>
+</body>
+</html>
